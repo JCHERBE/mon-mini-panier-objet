@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400);
+
+html {
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	background-color: #A1A5B2;
+	color: #403F3D;
+	padding: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	font-weight:bold;
+}
+
+main {
+	background-color: #43CC62;
+	color: #212121;
+	text-align: center;
+	padding: 150px; 
+}
+
+#btn-1, #btn-2, #btn-3 {
+	background-color:#FF4081;
+	padding: 30px;
+	border: none;
+	color: #FFCF99;
+	font-weight: bold;
+	text-transform: uppercase;
+	width: 20%;
+	padding-top: 200px;
+	background-size: 100% 75%;
+	background-repeat: no-repeat;
+}
+button:hover {
+		background-color: #B6B6B6;
+}
+#btn-1 {
+	background-image: url("../img/Foodshot_2016_21_3.jpg");
+}  
+
+#btn-2 {
+	background-image: url("../img/Foodshot_2016_16_3.jpg"); 
+}
+
+#btn-3 {
+	background-image: url("../img/Foodshot_2016_18_7.jpg");
+}
+
+#texte-panier {
+	margin: 25px;
+	font-size: 1.2em
+	font-weight:bold;	
+}
+
+table {
+	margin: auto;
+
+}
+td, th {
+
+	padding: 10px
+}
+
+.image-article {
+	text-align: center;
+	background-size: 100%;
+	background-repeat: no-repeat; 
+
+}
+footer {
+	background-color: #727272;
+	color: #B6B6B6;
+	padding: 40px;
+	text-align: center;
+	font-size: 0.60em;
+}
+
